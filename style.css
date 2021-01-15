@@ -70,11 +70,12 @@ button {
 }
 
 .newItems {
+	width: 80%;
 	display: flex;
 	justify-content: left;
 	background-color: #4b4949;
 	color: white;
-	margin: 10px 0;
+	margin: 10px auto;
 	border-radius: 5px;
 }
 
@@ -83,8 +84,31 @@ button {
 	font-size: 24px;
 	text-transform: capitalize;
 }
+.newItems p:hover,
+.updateState {
+	cursor: pointer;
+}
 
 .newItems input {
 	margin: 20px;
 	align-self: center;
+}
+
+.updateState:checked + p {
+	text-decoration: line-through;
+	color: #dda62e;
+}
+
+.removeNow {
+	display: none;
+}
+
+.deleteIcon {
+	margin: 0 15px 0 5px;
+	width: 30px;
+	float: right;
+}
+
+.deleteIcon:hover {
+	width: 40px;
 }
