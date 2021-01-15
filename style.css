@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: auto;
+	text-align: center;
+	/* background-color: #7253ec; */
+	background-color: #202020;
+	font-family: sans-serif;
+	letter-spacing: 2.5px;
+}
+
+.container {
+	margin: 45px auto 0;
+	width: 100%;
+}
+
+.header {
+	background-color: #602acc;
+	width: 60%;
+	color: white;
+	margin: auto;
+	border-radius: 4px;
+}
+
+h1 {
+	font-size: 24px;
+	padding: 10.5px 0;
+}
+
+form {
+	margin: 70px auto 50px;
+}
+
+input[type='text'] {
+	height: 50px;
+	width: 65%;
+	border: none;
+	color: #6f6e6e;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 3px;
+}
+input[type='checkbox'] {
+	transform: scale(1.5);
+}
+
+button {
+	height: 50px;
+	width: 90px;
+	font-size: 16px;
+	margin-left: 30px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
+.addButton {
+	background-color: #35b58a;
+}
+
+.addButton:hover {
+	background-color: #25916d;
+}
+
+.deleteButton {
+	background-color: #e74479;
+}
+
+.newItems {
+	display: flex;
+	justify-content: left;
+	background-color: #4b4949;
+	color: white;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+.newItems p {
+	align-self: center;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+
+.newItems input {
+	margin: 20px;
+	align-self: center;
+}
