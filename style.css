@@ -90,7 +90,7 @@ button {
 }
 
 .newItems input {
-	margin: 20px;
+	margin: 10px;
 	align-self: center;
 }
 
@@ -104,7 +104,7 @@ button {
 }
 
 .deleteIcon {
-	margin: 0 15px 0 5px;
+	margin: 0 5px 0 5px;
 	width: 30px;
 	float: right;
 }
